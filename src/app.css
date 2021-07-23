@@ -1,0 +1,46 @@
+html,
+body{
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1000;
+}
+
+.background-1{
+  background-color: #951B41;
+}
+
+.background-2{
+  background-color: #EC524A;
+}
+
+.background-3{
+  background-color: #F0D97A;
+}
+
+.background-4{
+  background-color: #C2DC7B;
+}
+
+.background-5{
+  background-color: #64E4AC;
+}
+
+ul{
+  list-style-type: none;
+}
+
+p{
+  font-family: "Roboto Slab", sans-serif;
+}
+
+
+

@@ -1,0 +1,16 @@
+.top-menu{
+  width: 100%;
+}
+.top-menu ul {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
+
+.top-menu li {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding: 0 10px;
+  cursor: pointer;
+}
