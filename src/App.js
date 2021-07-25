@@ -1,10 +1,13 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import TopMenu from "./components/TopMenu";
-import CargaEletrica from "./sections/CargaEletrico";
+import Coulomb from "./sections/Coulomb";
 import CampoEletrico from './sections/CampoEletrico';
-import DipoloEletrico from './sections/DipoloEletrico';
-import ForcaEletrica from './sections/ForcaEletrica';
+import PotencialEletrico from './sections/PotencialEletrico';
+import LeiDeGauss from './sections/LeiDeGauss';
+import Capacitancia from './sections/Capacitancia';
+import 'katex/dist/katex.min.css';
 import "./app.css";
+import Inicio from './sections/Inicio';
 
 function App() {
   return (
@@ -19,16 +22,22 @@ function App() {
             <>
               <ReactFullpage.Wrapper>
                 <div className="section background-1">
-                  <CargaEletrica/>
+                  <Inicio/>
                 </div>
                 <div className="section background-2">
-                  <ForcaEletrica/>
+                  <Coulomb/>
                 </div>
                 <div className="section background-3">
                   <CampoEletrico/>
                 </div>
                 <div className="section background-4">
-                  <DipoloEletrico/>
+                  <LeiDeGauss/>
+                </div>
+                <div className="section background-5">
+                  <PotencialEletrico/>
+                </div>
+                <div className="section background-6">
+                  <Capacitancia/>
                 </div>
               </ReactFullpage.Wrapper>
             </>

@@ -2,6 +2,7 @@ html,
 body{
   width: 100%;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 a {
@@ -23,15 +24,19 @@ a {
 }
 
 .background-3{
-  background-color: #F0D97A;
+  background-color: #bd9700;
 }
 
 .background-4{
-  background-color: #C2DC7B;
+  background-color: #465E41;
 }
 
 .background-5{
-  background-color: #64E4AC;
+  background-color: #577084;
+}
+
+.background-6{
+  background-color: #4B3635;
 }
 
 ul{
@@ -40,7 +45,31 @@ ul{
 
 p{
   font-family: "Roboto Slab", sans-serif;
+  margin: 0;
 }
 
 
+ol{
+  font-family: "Roboto Slab", sans-serif;
+}
 
+.slideWrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.math{
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.bulletList{
+  list-style-type: disc;
+}
